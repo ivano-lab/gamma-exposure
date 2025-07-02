@@ -2,6 +2,34 @@
 <html>
 <head>
     <title>Exposição a Gama</title>
+    <style>
+        body {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        input[type="text"], input[type="submit"] {
+            padding: 8px;
+            font-size: 1em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 16px;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 8px;
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Visualizador de Gama - Índices</h1>
