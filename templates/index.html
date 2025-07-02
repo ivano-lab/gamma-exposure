@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exposição a Gama</title>
+</head>
+<body>
+    <h1>Visualizador de Gama - Índices</h1>
+    <form method="post">
+        <label for="index">Digite o índice (ex: SPX):</label>
+        <input type="text" name="index" required>
+        <input type="submit" value="Gerar Gráfico">
+    </form>
+    {% if erro %}
+        <p style="color:red;">Erro: {{ erro }}</p>
+    {% endif %}
+    {% if imagem %}
+        <h2>Resultado:</h2>
+        <img src="data:image/png;base64,{{ imagem }}">
+    {% endif %}
+</body>
+</html>
