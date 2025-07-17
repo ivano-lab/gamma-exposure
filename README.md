@@ -1,12 +1,11 @@
 # Gamma Exposure
 
-Aplicação Flask para visualização da exposição gamma de opções de índices. O projeto utiliza dados da CBOE e exibe gráficos gerados dinamicamente.
+Flask application for visualizing gamma exposure of index options. The project uses data from CBOE and displays dynamically generated charts.
 
-## Estrutura
+## Structure
 
-- `app.py`: aplicação principal Flask
-- `gamma_utils.py`: funções de processamento e geração de gráficos
-- `requirements.txt`: dependências do projeto
-- `Procfile`: comando de inicialização para produção
-- `templates/`: arquivos HTML
-
+- `app.py`: main Flask application
+- `gamma_utils.py`: processing and chart generation functions
+- `requirements.txt`: project dependencies
+- `Procfile`: startup command for production
+- `templates/`: HTML files
